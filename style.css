@@ -1,0 +1,49 @@
+* { margin: 0; padding: 0; }
+
+body {
+  text-align: center;
+  color: black;
+  background-image: url("idk\ vocoder.png");
+}
+
+#ascii {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: monospace;
+  font-size: 11px;
+  line-height: 70%;
+  color: white;
+}
+
+#sprite {
+  display: none;
+}
+
+#container {
+  overflow: hidden;
+  display: inline-block;
+}
+
+#text{
+  color: black;
+  font-size: 5vw;
+  font-family: monospace;
+  font-weight: 900;
+  transform: rotate(2deg);
+}
+
+a{
+  padding: 10px; 
+  color: purple;
+  background-color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+
+#gallery{
+  padding-top: 5vw;
+  display: absolute;
+}
+
+#footer{
+  padding-top: 5vw;
+  background-color: white;
+}
